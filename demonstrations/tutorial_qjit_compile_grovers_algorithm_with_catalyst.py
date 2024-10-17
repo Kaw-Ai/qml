@@ -71,13 +71,6 @@ How to quantum just-in-time (QJIT) compile Grover's algorithm with Catalyst
 # First, we'll import the required packages and define the Grover's algorithm circuit, as we did in
 # the :doc:`previous tutorial <tutorial_grovers_algorithm>`:
 
-# --- REMOVE BEFORE COMMITTING! --- #
-# FIXME! Which version of catalyst are we using?
-import catalyst
-print(catalyst.__version__)
-# --- REMOVE BEFORE COMMITTING! --- #
-
-
 import matplotlib.pyplot as plt
 import numpy as np
 import pennylane as qml
